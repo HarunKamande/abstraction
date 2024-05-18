@@ -7,7 +7,7 @@ public class Square extends Shape {
     @Override
     public void calculate() {
         int area = height * width; // Calculate the area of the square
-        System.out.println("The area of the square is: " + area);
+        System.out.println("The area is: " + area);
     }
 
     public static void main(String[] args) {
